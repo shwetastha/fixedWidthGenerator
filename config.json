@@ -1,0 +1,108 @@
+{
+    "CUSTOMER_REFERENCE_NUMBER":{
+        "FIELD": "CUSTOMER_REFERENCE_NUMBER",
+        "TYPE": "OPTIONAL",
+        "FROM": 1,
+        "TO": 12,
+        "SIZE": 12
+    },
+    "LAST_NAME":{
+        "FIELD": "LAST_NAME",
+        "TYPE": "REQUIRED",
+        "FROM": 13,
+        "TO": 37,
+        "SIZE": 25
+    },
+    "FIRST_NAME":{
+        "FIELD": "FIRST_NAME",
+        "TYPE": "REQUIRED",
+        "FROM": 38,
+        "TO": 52,
+        "SIZE": 15
+    },
+    "MIDDLE_NAME":{
+        "FIELD": "MIDDLE_NAME",
+        "TYPE": "OPTIONAL",
+        "FROM": 53,
+        "TO": 62,
+        "SIZE": 10
+    },
+    "SUFFIX":{
+        "FIELD": "SUFFIX",
+        "TYPE": "OPTIONAL",
+        "FROM": 63,
+        "TO": 64,
+        "SIZE": 2
+    },
+    "FILLER1":{
+        "FIELD": "FILLER1",
+        "TYPE": "OPTIONAL",
+        "FROM": 65,
+        "TO": 79,
+        "SIZE": 15
+    },
+    "SOCIAL_INSURANCE_NUMBER":{
+        "FIELD": "SOCIAL_INSURANCE_NUMBER",
+        "TYPE": "OPTIONAL",
+        "FROM": 80,
+        "TO": 88,
+        "SIZE": 9
+    },
+    "DATE_OF_BIRTH":{
+        "FIELD": "DATE_OF_BIRTH",
+        "TYPE": "OPTIONAL",
+        "FROM": 89,
+        "TO": 94,
+        "SIZE": 6
+    }, 
+    "STREET_NAME":{
+        "FIELD": "STREET_NAME",
+        "TYPE": "REQUIRED",
+        "FROM": 95,
+        "TO": 124,
+        "SIZE": 30
+    },
+    "CITY_NAME":{
+        "FIELD": "CITY_NAME",
+        "TYPE": "REQUIRED",
+        "FROM": 125,
+        "TO": 144,
+        "SIZE": 20
+    },
+    "PROVINCE":{
+        "FIELD": "PROVINCE",
+        "TYPE": "REQUIRED",
+        "FROM": 145,
+        "TO": 146,
+        "SIZE": 2
+    },
+    "POSTAL_CODE":{
+        "FIELD": "POSTAL_CODE",
+        "TYPE": "REQUIRED",
+        "FROM": 147,
+        "TO": 152,
+        "SIZE": 6
+    },
+    "ACCOUNT_NUMBER":{
+        "FIELD": "ACCOUNT_NUMBER",
+        "TYPE": "OPTIONAL",
+        "FROM": 153,
+        "TO": 167,
+        "SIZE": 15
+    },
+    "FILLER2":{
+        "FIELD": "FILLER2",
+        "TYPE": "OPTIONAL",
+        "FROM": 168,
+        "TO": 195,
+        "SIZE": 28
+    },
+    "RESERVED_FIELD":{
+        "FIELD": "RESERVED_FIELD",
+        "TYPE": "RESERVED",
+        "FROM": 196,
+        "TO": 220,
+        "SIZE": 25
+    }
+    
+}
